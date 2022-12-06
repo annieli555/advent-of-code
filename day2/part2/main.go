@@ -6,15 +6,6 @@ import (
 
 func main() {
 	input, _ := UrlToLines("https://adventofcode.com/2022/day/2/input")
-	// file, _ := os.Open("../input.txt")
-	// defer file.Close()
-
-	// scanner := bufio.NewScanner(file)
-	// var input []string
-
-	// for scanner.Scan() {
-	// 	input = append(input, scanner.Text())
-	// }
 
 	totalScore := 0
 
